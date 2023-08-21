@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+}
+body {
+  display: flex;           /*  IE 11/10 min-height bug fix - or an extra wrapper  */
+  background: red;
+}                          /*  in the markup having display: flex;                */
+.page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background: lightgray;
+  flex: 1;
+}
